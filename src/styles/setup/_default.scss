@@ -1,0 +1,50 @@
+body {
+    color: $black;
+    background-color: $gray-bg;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  // h1,
+  // h2,
+  // h3,
+  // h4,
+  // h5 {
+  //   @include type-1(16);
+  // }
+  
+  a {
+    @include type-1(16);
+    color: $black;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 130vh;
+  }
+  
+  #main {
+    flex: 1;
+    top: 75px;
+  }
+  
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 966px) {
+    nav {
+      padding: 5px;
+    }
+  }

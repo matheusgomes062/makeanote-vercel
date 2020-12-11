@@ -1,0 +1,15 @@
+// Colors
+$main-blue: #18acc4;
+$secondary-blue: #007a8d;
+$main-yellow: #fdcb13;
+$secondary-yellow: #de9e1f;
+$green: #0fa866;
+$black: #1f2d30;
+$gray-bg: #fbfbfb;
+$gray-overlay: transparentize($black, 0.12);
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap");
+
+// Font Variables
+$main-font: "Montserrat", sans-serif;
