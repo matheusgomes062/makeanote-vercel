@@ -1,15 +1,35 @@
 // Colors
-$main-blue: #18acc4;
-$secondary-blue: #007a8d;
-$main-yellow: #fdcb13;
-$secondary-yellow: #de9e1f;
-$green: #0fa866;
+
 $black: #1f2d30;
-$gray-bg: #fbfbfb;
+$gray-border: #ddd;
 $gray-overlay: transparentize($black, 0.12);
 
 // Google Fonts
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap");
+@font-face {
+  font-family: "HelveticaNeue";
+  src: local("HelveticaNeue"), url("~@/fonts/helveticaneue/HelveticaNeue.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeueMed";
+  src: local("HelveticaNeueMed"),
+    url("~@/fonts/helveticaneue/HelveticaNeueMed.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeueBd";
+  src: local("HelveticaNeueBd"), url("~@/fonts/helveticaneue/HelveticaNeueBd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeueHv";
+  src: local("HelveticaNeueHv"), url("~@/fonts/helveticaneue/HelveticaNeueHv.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeueLt";
+  src: local("HelveticaNeueLt"), url("~@/fonts/helveticaneue/HelveticaNeueLt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "futura-condensed-extra-bold";
+  src: local("futura-condensed-extra-bold"), url("~@/fonts/futura-condensed-extra-bold/futura-condensed-extra-bold.otf") format("opentype");
+}
 
 // Font Variables
-$main-font: "Montserrat", sans-serif;
+$main-font: "HelveticaNeue", sans-serif;

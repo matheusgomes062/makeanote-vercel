@@ -1,33 +1,20 @@
 <template>
   <div id="app">
-    <TheHeader/>
-    <main>
-      <router-view />
-    </main>
-    <TheFooter>
-
-    </TheFooter>
+    <router-view />
   </div>
 </template>
 
 <script>
-  import TheHeader from "@/components/Header/TheHeader.vue";
-  import TheFooter from "@/components/Footer/TheFooter.vue";
-
-  export default {
-  components: {
-    TheHeader,
-    TheFooter
-  },
+import "./styles/global.scss";
+export default {
+  components: {},
   data() {
-    return {
-    };
+    return {};
   },
-  created() {
-  },
-  destroyed() {
-  },
-  methods: {
-  }
+  created() {},
+  destroyed() {},
+  methods: {}
 };
 </script>
+
+<style lang="scss"></style>

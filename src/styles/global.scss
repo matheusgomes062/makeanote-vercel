@@ -1,5 +1,5 @@
-@import "setup/reset";
-@import "setup/variables";
-@import "setup/mixins";
-@import "setup/grid";
-@import "setup/default.scss";
+@import "./setup/_reset.scss";
+@import "./setup/_variables.scss";
+@import "./setup/_mixins.scss";
+@import "./setup/_grid.scss";
+@import "./setup/_default.scss";
