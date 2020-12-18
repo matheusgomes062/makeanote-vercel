@@ -1,0 +1,40 @@
+.wrapperContent {
+  display: flex;
+  flex-direction: row;
+}
+.contentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10vh 30px;
+  justify-content: space-around;
+  div {
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 50px;
+    img {
+      width: 600px;
+      height: 600px;
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .shoeNameSmall {
+      font-family: 'HelveticaNeueLt';
+      font-size: 1.5em;
+      align-self: center;
+      text-align: center;
+    }
+    .shoeNameLarge {
+      font-family: 'HelveticaNeueBd';
+      font-size: 2em;
+      align-self: center;
+      text-align: center;
+      margin: 20px 0;
+    }
+  }
+}

@@ -133,16 +133,16 @@
           src="https://images.lojanike.com.br/320x320/produto/218382_2335086_20200723173636.jpg"
           alt="tenis"
         />
-        <p>Tênis Nike Air Zoom Vomero 14 Feminino</p>
-        <p>R$ 749,99</p>
+        <p>Camiseta Nike Sportswear Feminina</p>
+        <p>R$ 79,99</p>
       </div>
       <div>
         <img
           src="https://images.lojanike.com.br/320x320/produto/252005_2246282_20200625113340.jpg"
           alt="tenis"
         />
-        <p>Tênis Nike Air Zoom Vomero 14 Feminino</p>
-        <p>R$ 749,99</p>
+        <p>Tênis Nike React Art3mis Feminino</p>
+        <p>R$ 579,99</p>
       </div>
     </div>
   </div>
